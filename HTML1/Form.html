@@ -1,0 +1,84 @@
+<html>
+    <!--https://usuaris.tinet.cat/acl/html_web/manual/formularios/formularios_6.html -->
+
+<head>
+	<title>formularios- ejemplo 5</title>
+    <style type="text/css">
+    table{font-size:8pt;font-family:Verdana;} 
+    td{font-size:8pt;font-family:Verdana;}
+    </style>
+</head>
+
+<body background="imagen/gif/1.gif">
+<font size="1" face="verdana">
+<form action="http://www.htmlweb.net/manual/formularios/ejemplos/cgi-bin/mailto.cgi" method="post" enctype="application/x-www-form-urlencoded">
+<table width="500" cellspacing="2" cellpadding="2" border="0">
+<th colspan="2" bgcolor="mediumaquamarine">Por favor, rellena estos datos</th>
+<tr>
+    <td bgcolor="#F08080" width="180"><b>Nombres:</b></td>
+    <td bgcolor="#FFD700" width="300"><input type="text" maxlength="15" size="30" name="nombre"></td>
+</tr>
+<tr>
+    <td bgcolor="#F08080" width="180"><b>Apellidos:</b></td>
+    <td bgcolor="#FFD700""><input type="text" maxlength="45" size="30" name="apellidos"></td>
+</tr>
+<tr>
+    <td bgcolor="#F08080" width="180"><b>Direci&oacute;n:</b></td>
+    <td bgcolor="#FFD700"><input type="text" maxlength="45" size="30" name="direccion"></td>
+</tr>
+<tr>
+    <td bgcolor="#F08080" width="180"><b>C&oacute;digo Postal:</b></td>
+    <td bgcolor="#FFD700""><input type="text" maxlength="15" size="4" name="direccion"></td>
+</tr>
+<tr>
+    <td bgcolor="#F08080" widht="180"><b>Color favorito:</b></td>
+    <td bgcolor="#FFD700"><input type="text" maxlength="45" size="30" name="color"></td>
+</tr>
+<tr>
+    <td bgcolor="#F08080" widht="180"><b>Fecha de nacimiento:</b></td>
+    <td bgcolor="#FFD700"><input type="text" maxlength="45" size="30" name="Fecha"></td>
+</tr>
+<tr>
+    <td bgcolor="#F08080" width="180"><b>Marca tu equipo favorito:</b></td>
+    <td bgcolor="#FFD700">
+  <input type="Radio" name="equipo" value="madrid" checked>Real Madrid
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="Radio" name="equipo" value="atletico">Atl&eacute;tico de Madrid
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="Radio" name="equipo" value="otro">Otro
+</tr>
+<tr>
+    <td bgcolor="#F08080" width="180"><b>Marca tu m&uacute;sica favorita:</b></td>
+    <td bgcolor="#FFD700">
+    <input type="checkbox" name="musica" value="salsa" checked>Salsa
+  &nbsp;&nbsp;<input type="checkbox" name="musica" value="bachata" checked>Bachata
+  &nbsp;&nbsp;<input type="checkbox" name="musica" value="reggaeton">Reggaeton
+  &nbsp;&nbsp;<input type="checkbox" name="musica" value="Cumbia">Cumbia
+    </td>
+</tr>
+<tr>
+    <td bgcolor="#F08080" width="180"><b>A que se dedica:</b></td>
+    <td bgcolor="#FFD700">
+     <select style="width:100px;">
+  <option value="trabajo">Trabaja
+  <option value="estudio">Estudia
+  <option value="otro">Otro
+  </select>
+         </td>
+</tr>
+<tr>
+    <td bgcolor="#F08080" width="180" valign="top"><b>¿Alg&uacute;n comentario?</b></td>
+    <td bgcolor="#FFD700">
+    <textarea name="comentario" cols="32" rows="5">
+  </textarea>
+</td>
+</tr>
+<tr>
+    <td bgcolor="mediumaquamarine" width="180" align="right"><input type="submit" value="Enviar"></b></td>
+    <td bgcolor="mediumaquamarine" align="left"><input type="reset" value="Borrar"></td>
+</tr>
+</table>   
+</form>
+</font>
+</body>
+
+
+</html>
